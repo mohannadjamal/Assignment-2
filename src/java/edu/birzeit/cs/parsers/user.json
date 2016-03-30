@@ -1,0 +1,25 @@
+{
+  "users":[
+      {
+        "id": "0",
+        "name": "Alice bob",
+        "loc": "42.3,-83.2",
+        "address": "6320 Asbury Park, Detroit, MI 48228",
+        "friends": [ { "id": "1" }, { "id": "2" } ]
+      },
+      {
+        "id": "1",
+        "name": "Nariman Ammar",
+        "loc": "47,-122",
+        "address": "4500 Cass Avenue, Detroit MI 48202",
+        "friends": [ { "id": "0" } ]
+      },
+      {
+        "id": "2",
+        "name": "Mohannad Jamal",
+        "loc": "42.3,-83.2",
+        "address": "Beit hanina, Jerusalem",
+        "friends": [{"id":"1"} ]
+      }
+    ]
+}
